@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #1A1B21;
+}
+
+.top-section {
+    height: 60vh;
+    background: url('./assets/caleb.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+main {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.main--first-section{
+    text-align: center;
+}
+
+.main--name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: -3px
+}
+
+.main--position {
+    font-size: 15px;
+    font-weight: 400;
+    color: #F3BF99;
+}
+
+.main--website {
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+}
+
+.email-btn, .linkedin-btn {
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 14px
+}
+
+button > i {
+    margin-right: 5px;
+}
+
+.email-btn {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    margin-right: 15px
+}
+
+.linkedin-btn {
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    color: #fff;
+}
+
+.main--second-section {
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main--about {
+    margin: 0;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about-text {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+.main--interests {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.interests-text {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+footer {
+    height: 50px;
+    background: #161619;
+}
+
+.footer--icons {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--icons i {
+    font-size: 30px;
+    color: #918E9B;
+    margin-right: auto; 
+    border: 12px solid transparent;
+    flex-grow: 1;
+    flex-basis: 30%;
+}
