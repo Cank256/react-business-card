@@ -8,8 +8,16 @@ export default function Main() {
                 <p className="main--position">Software Developer</p>
                 <p className="main--website">cank256.github.io</p>
                 <section className="main--buttons">
-                    <button className="email-btn" onclick="window.location.href='mailto:nkunzecaleb@gmail.com'"><i className="fa fa-envelope"></i>Email</button>
-                    <button className="linkedin-btn" onclick="window.location.href='https://www.linkedin.com/in/nkunzecaleb/'"><i className="fa fa-linkedin-square"></i>LinkedIn</button>
+                    <button className="email-btn" onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href='mailto:nkunzecaleb@gmail.com';
+                        }}><i className="fa fa-envelope"></i>Email
+                    </button>
+                    <button className="linkedin-btn" onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href='https://www.linkedin.com/in/nkunzecaleb/';
+                        }}><i className="fa fa-linkedin-square"></i>LinkedIn
+                    </button>
                 </section>
             </div>
             
